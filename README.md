@@ -1,36 +1,154 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<div align="center">
 
-## Getting Started
+# PersonaLens
 
-First, run the development server:
+### Digital Footprint Analyzer
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+Understand how the internet perceives you through AI-powered insights, privacy analysis, and digital identity visualization.
+
+---
+
+<img src="./public/screenshots/hero.png" width="90%"/>
+
+</div>
+
+---
+
+## 🚀 Inspiration
+
+Every public profile tells a story.
+
+GitHub, LinkedIn, and personal portfolios reveal far more than we realize—not only to recruiters, but also to AI systems and anyone browsing publicly available information.
+
+**PersonaLens** helps users understand their digital footprint from multiple perspectives while providing actionable recommendations to improve privacy and online presence.
+
+---
+
+# ✨ Features
+
+- 🤖 **AI Digital Twin**
+  - AI-generated summary of skills, interests, and personality signals.
+
+- 💼 **Recruiter View**
+  - Simulates how a recruiter may interpret your public profile.
+
+- 🔒 **Privacy Expert**
+  - Highlights publicly visible information and privacy concerns.
+
+- ⚠️ **Exposure View**
+  - Educational overview of publicly exposed digital signals.
+
+- 📊 **Exposure Score**
+  - Quantifies overall online exposure.
+
+- 🌐 **Digital Footprint Graph**
+  - Visualizes relationships between your online profiles and inferred data.
+
+- ✅ **AI Action Plan**
+  - Personalized recommendations ranked by impact.
+
+---
+
+# 🛠 Tech Stack
+
+### Frontend
+
+- Next.js 15
+- React
+- TypeScript
+- Tailwind CSS
+- Framer Motion
+- Lucide Icons
+
+### Backend
+
+- Next.js API Routes
+- Groq LLM API
+- GitHub REST API
+
+---
+
+# ⚙️ How It Works
+
+```text
+GitHub / LinkedIn / Portfolio
+            │
+            ▼
+     Data Collection
+            │
+            ▼
+      AI Processing
+            │
+            ▼
+ Digital Twin Generation
+            │
+            ▼
+ Exposure • Privacy • Recruiter
+            │
+            ▼
+     Dashboard & Graph
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+# 📸 Screenshots
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+| Landing | Analysis |
+|----------|----------|
+| ![](./public/screenshots/landing.png) | ![](./public/screenshots/analyze.png) |
 
-## Learn More
+| Dashboard | Views |
+|-----------|-------|
+| ![](./public/screenshots/dashboard.png) | ![](./public/screenshots/views.png) |
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+# 📂 Project Structure
 
-## Deploy on Vercel
+```text
+app/
+components/
+lib/
+public/
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+# 🚀 Running Locally
+
+```bash
+git clone https://github.com/yourusername/mirage.git
+
+cd mirage
+
+npm install
+
+npm run dev
+```
+
+Create a `.env.local`
+
+```env
+GROQ_API_KEY=your_key
+GITHUB_TOKEN=your_github_token
+```
+
+---
+
+# 🎯 Future Scope
+
+- 📄 Resume Parsing & ATS Analysis
+- 🌍 Additional Social Platform Support
+- 📈 Historical Footprint Tracking
+- 🛡 Continuous Privacy Monitoring
+- 📥 Downloadable Reports
+
+---
+<div align="center">
+
+### Built with ❤️
+
+*"Understand your digital identity before everyone else does."*
+
+</div>

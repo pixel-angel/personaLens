@@ -17,9 +17,8 @@ export default function CTA() {
           {/* Content */}
           <div className="relative z-10 mx-auto flex max-w-3xl flex-col items-center">
             <h2 className="text-4xl font-black leading-tight md:text-6xl">
-              Ready to see
+              Ready to see what the Internet remembers?
               {/* <br /> */}
-              what the Internet remembers?
             </h2>
 
             <p className="mt-6 max-w-2xl text-lg leading-8 text-zinc-400">
