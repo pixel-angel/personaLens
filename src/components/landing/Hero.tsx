@@ -27,7 +27,7 @@ export default function Hero() {
       />
 
       {/* Floating AI Cards */}
-        <FloatingCards />
+      <FloatingCards />
 
       <div className="relative z-10 mx-auto flex w-full max-w-7xl flex-col items-center">
         {/* Badge */}
@@ -99,7 +99,10 @@ export default function Hero() {
               </motion.button>
             </Link>
 
-            <Link href="https://github.com/" target="_blank">
+            <Link
+              href="https://github.com/pixel-angel/personaLens"
+              target="_blank"
+            >
               <motion.button
                 whileHover={{
                   scale: 1.03,

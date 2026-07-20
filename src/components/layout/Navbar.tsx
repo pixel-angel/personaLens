@@ -81,7 +81,7 @@ export default function Navbar() {
         {/* Desktop Buttons */}
         <div className="hidden items-center gap-4 md:flex">
           <Link
-            href="https://github.com/"
+            href="https://github.com/pixel-angel/personaLens"
             target="_blank"
             className="rounded-xl border border-white/10 bg-white/5 p-3 text-zinc-300 transition hover:border-violet-500/40 hover:bg-white/10 hover:text-white"
           >

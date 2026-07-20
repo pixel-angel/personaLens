@@ -29,7 +29,7 @@ export default function Footer() {
 
         <div className="flex items-center gap-4">
           <Link
-            href="https://github.com/"
+            href="https://github.com/pixel-angel/personaLens"
             target="_blank"
             className="rounded-xl border border-white/10 p-3 hover:bg-white/5 cursor-pointer"
           >
