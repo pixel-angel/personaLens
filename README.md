@@ -145,6 +145,13 @@ GITHUB_TOKEN=your_github_token
 - 📥 Downloadable Reports
 
 ---
+### Team :
+- Alisha Singh
+- Anju Sinha
+- Ishita Singh
+- Kashish
+
+---
 <div align="center">
 
 ### Built with ❤️
