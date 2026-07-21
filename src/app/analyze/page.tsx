@@ -2,8 +2,8 @@
 
 import { useRouter } from "next/navigation";
 import UploadForm from "@/components/analyze/UploadForm";
-import Navbar from "@/components/layout/Navbar";
-import Footer from "@/components/layout/Footer";
+import Navbar2 from "@/components/layout/Navbar2";
+import Footer2 from "@/components/layout/Footer2";
 
 export default function AnalyzePage() {
   const router = useRouter();
@@ -16,9 +16,9 @@ export default function AnalyzePage() {
 
   return (
     <>
-    <Navbar/>
+    <Navbar2/>
     <UploadForm onAnalyze={handleAnalysis} />;
-    <Footer/>
+    <Footer2/>
     </>
   );
 }

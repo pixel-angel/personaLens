@@ -1,5 +1,5 @@
-import Navbar from "@/components/layout/Navbar";
-import Footer from "@/components/layout/Footer";
+import Navbar2 from "@/components/layout/Navbar2";
+import Footer2 from "@/components/layout/Footer2";
 
 export default function DashboardLayout({
   children,
@@ -8,11 +8,11 @@ export default function DashboardLayout({
 }) {
   return (
     <>
-      <Navbar />
+      <Navbar2 />
 
       <main className="min-h-screen bg-[#09090B] pt-24">{children}</main>
 
-      <Footer />
+      <Footer2 />
     </>
   );
 }
